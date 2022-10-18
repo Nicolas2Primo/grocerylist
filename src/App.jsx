@@ -4,7 +4,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="w-screen h-screen flex flex-col items-center gap-3 pt-20 sm:">
+    <div className="w-screen h-screen flex flex-col items-center gap-3 pt-20 bg-[#F0F8FF]">
       <Header></Header>
       <Form></Form>
     </div>
