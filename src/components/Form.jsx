@@ -55,7 +55,7 @@ const Form = () => {
         className="bg-white border-none focus:ring-transparent focus:placeholder-transparent placeholder-gray-600 rounded-xl text-sm text-center py-3 hover:drop-shadow-lg"
         placeholder="Nome do Item"
       />
-      <div className="flex flex-wrap gap-5 justify-center text-sm font-bold">
+      <div className="flex flex-wrap gap-5 justify-center text-sm font-bold px-2">
         {type.map((type, index) => (
           <button
             isselected={(selectedItem === type).toString()}
