@@ -100,8 +100,11 @@ const Form = () => {
                       <span className="text text-green-500 font-bold">
                         R${item.preco}
                       </span>
-                      <button onClick={() => deleteItem(id)}>
-                        <img src="src\assets\Close.svg" alt="" />
+                      <button
+                        onClick={() => deleteItem(id)}
+                        className="text-red-600 font-extrabold text-md"
+                      >
+                        X
                       </button>
                     </div>
                   );
